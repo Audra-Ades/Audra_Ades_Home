@@ -190,4 +190,11 @@ align-items: center;
 
     
 }
+.staircase{
+    display:flex;
+ align-content: center;
+ position: relative;
+   
+    width:99%;
 
+}
