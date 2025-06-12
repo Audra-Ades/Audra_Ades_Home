@@ -20,7 +20,7 @@ ul{
  }
 
 .Extra{
-    font-family: 'KG LET HER GO OUTLINE', sans-serif;
+    font-family: 'KG LET HER GO OUTLINE';
     color: #56698d;
     font-size: 200px;
     align-content: center;
@@ -33,7 +33,7 @@ ul{
 }
 .me{
     font-family: 'Brandford', sans-serif;
-    font-size: 90px;
+    font-size: 300%;
     text-align: center;
     color: #56698d;
     display: flex;
