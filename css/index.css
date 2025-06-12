@@ -32,7 +32,7 @@ ul{
    
 }
 .me{
-    font-family:"brandford";
+    font-family: 'Brandford', sans-serif;
     font-size: 90px;
     text-align: center;
     color: #56698d;
@@ -64,7 +64,7 @@ ul{
     padding: 0 20px;
     font-size: 1rem;
     color: white;
-    font-family:"brandford";
+    font-family: 'Brandford', sans-serif;
     border-radius: 10px;
     background-color: #56698d;
     font-size: 40px;
@@ -195,7 +195,8 @@ margin-left: 100px;
     display:flex;
     justify-content: center;
     font-size: 60px;
-    font-family: "brandford"; 
+    font-family: 'Brandford', sans-serif;
+                                                 
     
 }
 
@@ -349,4 +350,3 @@ margin-left: 100px;
     font-size: 60px;
  }
 
- 
