@@ -276,6 +276,13 @@ margin-left: 100px;
     padding: 15px;
 
   }
+  .email{
+    padding-top: 15px;
+  }
+  .phone{
+    padding-top: 15px;
+
+  }
   
   /* Popup arrow */
   .popup .popuptext::after {
@@ -287,6 +294,7 @@ margin-left: 100px;
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
+    
   }
   
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
@@ -316,6 +324,7 @@ margin-left: 100px;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .red{
   
     width:10%;
