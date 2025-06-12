@@ -3,13 +3,6 @@
     margin: 10px;
 }
 
-.name{
-    font-family: Old London Alternate;
-    color:black;
-    font-size:50px;
-    text-align: center;
-   
-}
 ul{
     font-family:"Jacquard 12", system-ui;
     font-size: 50px;
@@ -350,3 +343,9 @@ margin-left: 100px;
     text-decoration: none;
     color: #56698d;
  }
+ .home{
+    color: #2d3c5a;
+    font-size: 60px;
+ }
+
+ 
