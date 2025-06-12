@@ -3,36 +3,97 @@
     
 <head> 
   <link href="css/index.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:#fff8e0;border:black solid 5px;">
+<body style="background-image: url(./images/stripe3.png);border:black solid 5px; margin:50px ;background-size: 5in 40in;">
 <h1 class="name">
    <div style="text-align: center;" >
   <img width= 80%; 
-  src="images/v1.png">
+  src="images/name.png">
 </h1>
 
 <ul>
-    <a >About</a>
+    <a >Home</a>
     <a >Skills</a>
-    <a >Work</a>
-    <a >Contact</a>
+    <a >Projects</a>
+  <a class="popup" onclick="myFunction()"> Contact
+      <span class="popuptext" id="myPopup">
+        <div id="sample">
+        Email: Audraades@gmail.com
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+       
+            
+              navigator.clipboard.writeText
+                  ("Audraades@gmail.com");
+          }
+      </script>
+      <div id="sample">
+        Phone: (760)987-0681
+      </div>
+      <br />
+       
+      <button class="copy" onclick="copyText()">Copy</button>
+      <br />
+       
+       
+      <script>
+          function copyText() {
+       
+            
+              navigator.clipboard.writeText
+                  ("(760)987-0681");
+          }
+      </script>
+      
+     
+      </span> 
+      
+    </a>
   </ul>
+
+ 
+  <script>
+    // When the user clicks on <div>, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+
     
-  <h2 class= "grid-container"; style="border: black solid 5px; margin: 70px;">
+  <h2 class= "grid-container"; style="background-color: antiquewhite  ;border: black solid 5px; margin: 100px;">
       <p class="Extra">
-        EXTRA! EXTRA!</p> 
+        EXTRA! EXTRA!</p>
 
         
       <div class="me">Read all about her!
       </div>
       <div style="text-align: center;" >
-        <img width= 50%; 
-        src="images/newspaperme.png">
+        <img width= 100%; 
+        src="images/pic2.png">
+        <img width= 40%; 
+        src="images/Layer10.png">
       </div>
-      <p class="blurb"> Audra learned her Ux/Ui design skills through taking a bootcamp course at UNCC. Through this course she developed skills such as protoyping and coding a website, decontructing and reconstructing a webpage to be more usable, empathizing with users to identify their pain points, and using tools such as Figma, Miro, Adobe, Github, and Html. 
+      <p class="blurb" style="border: white solid 5px;"> Audra learned her Ux/Ui design skills through taking a bootcamp course at UNCC. Through this course she developed skills such as protoyping and coding a website, decontructing and reconstructing a webpage to be more usable, empathizing with users to identify their pain points, and using tools such as Figma, Miro, Adobe, Github, and Html. 
       </p>
     </div>
-    <div style="text-align: center;"><button class="styled" type="button" >Download Resume</button>
+    <div style="text-align: center;">
+     
+      <div class="row"><img  src="../images/handpointleft.gif"; width="30%"; class="point1" ><button class="styled" type="button" ><a class="link" href="AudraResume .docx.pdf" download="AudraResume";>Download Resume</a></button>
+   
+    <img src="../images/handpointright.gif"; width="30%"; class="point1">
+ </div>
+    
     </div>
      </h2>
      
@@ -40,7 +101,8 @@
 
 </div>
 <div>
-<img src="../images/staircase.gif" class="staircase">
+  <img src="url" alt="">
+
 </div>
 
 
@@ -68,27 +130,35 @@
 </body>
 
 
-
+<div class="socials">
+  <a class="icon1"> <img width= 70%; 
+    src="images/stamp1.png"></a>
+  <a class="icon2"> <img width= 75%; 
+      src="images/stamp2.png"></a>
+   <a class="icon3"> <img width= 70%; 
+        src="images/stamp1.png"></a>
+ 
+</div>
 
 
 <footer>
-
-  <ul class="foot">
-    
-    <a >About</a>
+<div class= "mycontainer">
+  <ul  >
+    <a >Home</a>
     <a >Skills</a>
-    <a >Work</a>
-    <a >Contact</a>
+    <a >Projects</a>
+    <a class="" href="mailto:audraades@gmail.com">Contact</a>
   </ul>
+</div>
 
 
-  <div class="socials" style="border: black solid 5px; height: 100px; margin: 50px;">
-    <a> <img width= 10%; 
+  <div class="socials" style="background-image: url(./images/bar.png);">
+    <a class="icon1"> <img width= 20%; 
       src="images/insta.png"></a>
-    <a> <img width= 10%; 
-        src="images/linked.png"></a>
-     <a> <img width= 10%; 
-          src="images/mail.png"></a>
+    <a class="icon2" href="https://www.linkedin.com/in/audra-ades-418436282/"> <img width= 15%; 
+          src="images/linked.png"></a>
+   <a class="icon3" href="mailto:audraades@gmail.com"> <img width= 20%; 
+            src="images/mail.png"></a>
   </div>
 </footer>
 
