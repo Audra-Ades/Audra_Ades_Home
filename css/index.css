@@ -24,8 +24,9 @@ ul{
     color: #56698d;
     font-size: 700%;
     align-content: center;
-    margin: 30%;
+    margin: auto;
     text-align: center;
+    display: flexbox;
     width: 50%;
     padding: 10px;
     margin-bottom: 30px;
