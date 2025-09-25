@@ -4,14 +4,22 @@
 }
 
 ul{
-    font-family:"Jacquard 12", system-ui;
-    font-size: 50px;
+  font-family: 'brandford', sans-serif;
+    font-size: 45px;
+    margin: 20px;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    color:#56698d;
-    margin: 50px;
-  
+    color: #56698d;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: white solid 5px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
 }
 
  ul a:hover{
@@ -34,7 +42,7 @@ ul{
    
 }
 .me{
-    font-family: 'Brandford', sans-serif;
+  font-family: 'brandford', sans-serif;
     font-size: 300%;
     text-align: center;
     color: #56698d;
@@ -43,13 +51,14 @@ ul{
 
 }
 .blurb{
-    font-family:"Courier new" ;
+    font-family:"Courier" ;
     align-content: center;
     margin: auto;
     text-align: center;
     width: 50%;
     color: black;
     padding: 10px;
+    justify-self: center;
     font-size: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -62,13 +71,15 @@ ul{
 }
 .styled {
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 0 70px;
     font-size: 1rem;
-    color: white;
-    font-family: 'Brandford', sans-serif;
+    color: #56698d;
+    font-family: 'Calendar Note TFB', sans-serif;
     border-radius: 10px;
-    background-color: #56698d;
-    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: white solid 5px;
+    font-size: 50px;
     justify-content: space-around;
     margin-bottom: 30px;
    
@@ -240,7 +251,7 @@ margin-left: 100px;
  
  .link{
      text-decoration: none;
-    color: white;
+    color:#56698d;
  }
  .row a:hover{
      color:black;
@@ -348,6 +359,5 @@ margin-left: 100px;
  }
  .home{
     color: #2d3c5a;
-    font-size: 60px;
+   
  }
-
